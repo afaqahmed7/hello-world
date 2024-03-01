@@ -27,6 +27,14 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
+
+
+# Ignore build directory
+/build/
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
